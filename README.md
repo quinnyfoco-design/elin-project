@@ -6,7 +6,7 @@ It has multiple options such as:
 
 - Standard(runs on most modern hardware)
 
-- Uncensored(same size as standard but abliterated)
+- Unfiltered(same size as standard but abliterated)
 
 - Lite(smaller than standard, focused for slower hardware or faster responses on modern hardware)
 
@@ -17,6 +17,8 @@ First of all, lets thank the ones who brought me to this:
 - Claude. Banned me for not being 18, appreciate the "support" 🥴
 
 Seriously now, thanks to @alevio_life on tiktok! His project was a HUGE inspiration to elin.
+
+The models are also not mine, you can find the hugginface repos in the launch of each!
 
 # INSTALLATION
 
