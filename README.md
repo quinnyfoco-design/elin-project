@@ -10,6 +10,8 @@ It has multiple options such as:
 
 - Lite(smaller than standard, focused for slower hardware or faster responses on modern hardware)
 
+- Cloud(runs via the groq API, good for super bad hardware or smarter models in trade with not being local/not private)
+
 Look below for further info.
 
 # THANK YOU!
@@ -34,3 +36,5 @@ You need following things:
 For the standard and unfiltered model, any modern gpu with 8GB vRAM is enough. 6GB vRAM GPU's will need offloading, which also makes it slower.
 
 For the lite model, a GPU with ~4GB vRAM is good, 2GB vRAM will also need a bit of offloading and will be slower.
+
+For the Cloud model, you dont need any good hardware at all just follow the tutorial(this runs on android phones, super bad desktop hardware, more, not local or private though).
