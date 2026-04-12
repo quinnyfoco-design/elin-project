@@ -18,7 +18,7 @@ First of all, lets thank the ones who brought me to this:
 
 Seriously now, thanks to @alevio_life on tiktok! His project was a HUGE inspiration to elin.
 
-The models are also not mine, you can find the hugginface repos in the launch of each!
+The models are also not mine, you can find the hugginface repos in the launch file of each!
 
 # INSTALLATION
 
