@@ -30,8 +30,9 @@ The models are also not mine, you can find the hugginface repos in the launch fi
 
 You need following things:
 ```bash
-..
+docker docker-compose python python-annotated-types python-cffi python-datasets python-fastapi python-gitpython python-huggingface-hub python-jinja python-matplotlib python-numpy python-openai python-packaging python-pandas python-pydantic python-pytest python-pyyaml python-requests python-safetensors python-seaborn python-sentencepiece python-tabulate python-tabulate python-pytorch python-tqdm python-typer python-typing_extensions pyside6 uvicorn
 ```
+Install them with your package manager and then just run the file you want to.
 
 # HARDWARE NEEDED
 
