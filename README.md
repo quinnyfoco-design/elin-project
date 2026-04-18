@@ -1,3 +1,4 @@
+<img width="416" height="310" alt="2158" src="https://github.com/user-attachments/assets/601c3de0-da52-44ba-8ea3-1c3c6f7b245c" />
 
 # The elin project
 
