@@ -39,7 +39,18 @@ Clone this repo and the needed files:
 ```bash
 git clone https://github.com/quinnyfoco-design/elin-project
 ```
+one last thing:
+to get searxng to work you need to do this.
 
+```bash
+bash -c 'cat <<EOF > .env
+                        # SearXNG settings
+                        SEARXNG_VERSION=latest
+                        SEARXNG_PORT=8080
+                        SEARXNG_HOSTNAME=localhost
+                        SEARXNG_SECRET_KEY=$(openssl rand -hex 32)
+                        EOF'
+```
 # HARDWARE NEEDED
 
 For the standard and unfiltered model, any modern gpu with 8GB vRAM is enough. 6GB vRAM GPU's will need offloading, which also makes it slower.
