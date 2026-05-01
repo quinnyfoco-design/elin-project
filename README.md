@@ -44,9 +44,12 @@ if you havent previously used docker:
 ```bash
 sudo groupadd docker
 ```
+you NEED to relogin after this, or type newgrp docker which is temporary for that terminal:
 ```bash
 sudo usermod -aG docker $USER
 ```
+
+
 if you use systemd(most likely):
 ```bash
 sudo systemctl start docker
