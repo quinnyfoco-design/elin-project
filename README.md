@@ -47,6 +47,31 @@ sudo groupadd docker
 ```bash
 sudo usermod -aG docker $USER
 ```
+if you use systemd(most likely):
+```bash
+sudo systemctl start docker
+```
+```bash
+sudo systemctl start docker
+```
+if you use openrc:
+```bash
+sudo rc-service docker start
+```
+```bash
+sudo rc-update add docker default
+```
+if runit:
+```bash
+sudo sv up docker
+```
+```bash
+sudo ln -s /etc/sv/docker /var/service/
+```
+if s6:
+```bash
+s6-svc -u /run/service/docker
+```
 
 one last thing:
 to get searxng to work you need to do this.
