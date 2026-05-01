@@ -39,6 +39,15 @@ Clone this repo and the needed files:
 ```bash
 git clone https://github.com/quinnyfoco-design/elin-project
 ```
+
+if you havent previously used docker:
+```bash
+sudo groupadd docker
+```
+```bash
+sudo usermod -aG docker $USER
+```
+
 one last thing:
 to get searxng to work you need to do this.
 
